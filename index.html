@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .cd{
+                  background-color: red;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            gap: 30px;
+        }
+        /* @media screen and (min-width:0px)  and (max-width:250px){
+            .p2,.p3{
+                display: none;
+            }
+        }
+        @media screen and (min-width:251px)  and (max-width:350px){
+            .p1,.p3{
+                display: none;
+            }
+        }
+        @media screen and (min-width:351px){
+            .p1,.p2{
+                display: none;
+            }
+        } */
+        @media screen and (orientation:landscape){
+            .div1{
+                border: 2px solid red;
+                padding: 30px;
+                background-color: orange;
+            }
+        }
+        @media screen and (orientation:portrait){
+            .div1{
+                border: 2px solid greenyellow;
+                padding: 30px;
+                background-color:blue;
+            }
+        }
+        .div1{
+
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            
+        }
+         p{
+
+               background-color: white;
+               border: 2px solid white;
+         }
+        
+         .div1 div{
+            border: 2px solid;
+         }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div>
+            <img class="p1" src="https://cms.letsly.in/wp-content/uploads/2024/07/Rohit-Sharma-With-T20-World-Cup-Trophy.jpg" alt="">
+            <div  style="width: 200px; overflow-y: scroll; height: 70px;">
+                <p class="cd">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde labore quos quidem accusantium similique, dicta accusamus voluptates, voluptatem aliquam optio obcaecati neque non explicabo inventore id aliquid voluptas, odit in.</p>
+            </div>
+            
+            <div class="p">
+                <p>rohit sharma</p>
+            </div>
+        </div>
+    
+        <div>
+            <img class="p2" src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Virat_Kohli_in_PMO_New_Delhi.jpg" alt="">
+            
+            <div style="width: 200px; overflow-y: scroll; height: 70px;">
+                <p class="cd">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi vel voluptatibus saepe aperiam rerum labore, repellat placeat, provident facilis, quos ipsam nam alias est veritatis. Quos debitis maiores ea a?</p>
+            </div>
+            <div class="p">
+                <p>virat kohli</p>
+            </div>
+        </div>
+        
+        <div>
+            <img class="p3" src="https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg" alt=""" alt="">
+            
+            <div style="width: 200px; overflow-y: scroll; height: 70px;">
+                <p class="cd">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, dolor reiciendis? Perferendis, adipisci! Explicabo ipsum perspiciatis, quisquam quam animi porro dolor alias nesciunt maxime illo esse at sunt omnis corrupti.</p>
+            </div><div class="p">
+                <p>ms dhoni</p>
+            </div>
+    </div>
+    
+    </div>
+    </body>
+</html>
